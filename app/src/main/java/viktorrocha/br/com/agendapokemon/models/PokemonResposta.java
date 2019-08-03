@@ -4,5 +4,13 @@ import java.util.ArrayList;
 
 public class PokemonResposta {
 
-    private ArrayList<> resultado;
+    private ArrayList<Pokemon> resultado;
+
+    public ArrayList<Pokemon> getResultado() {
+        return resultado;
+    }
+
+    public void setResultado(ArrayList<Pokemon> resultado) {
+        this.resultado = resultado;
+    }
 }
